@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.anton {
+    font-family: 'Anton', sans-serif;
+}
+
+.spectral {
+    font-family: 'Spectral', serif;
+}
