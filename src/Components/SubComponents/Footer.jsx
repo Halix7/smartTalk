@@ -2,8 +2,11 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className='flex justify-between bg-black text-white px-3 py-4  '>
-        <div className="service mx-3 my-3">
+    <footer className=' bg-black text-white px-3 py-4  '>
+        <div className='flex justify-between flex-col md:flex-row text-center '>
+
+        
+        <div className=" service mx-3 my-3">
 
         <h1 className='text-xl  mb-2'>
             Services
@@ -33,7 +36,8 @@ const Footer = () => {
             </ul>
 
         </div>
-        <p>
+        </div>
+        <p className='text-center'>
         © copyright 
         </p>
     </footer>

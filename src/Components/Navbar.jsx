@@ -10,7 +10,7 @@ const Navbar = () => {
     <nav className=' fixed top-0 flex justify-between bg-opacity-5 md:justify-center  text-[#03045e] bg-[#d5f1f7] w-[100%]  my-4 mx-3 z-10  '>
       <Link to="/">
 
-      <img className='w-[6rem] h-[6rem] mx-2' src={smarttalk} alt="logo" />
+      <img className='w-[3rem] h-[3rem] md:w-[6rem] md:h-[6rem] mx-2' src={smarttalk} alt="logo" />
       </Link>
    
         {
