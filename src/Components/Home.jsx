@@ -3,11 +3,13 @@ import Header from './SubComponents/Header';
 import Section from './SubComponents/Section';
 import Footer from './SubComponents/Footer';
 
+
 const Home = () => {
   return (
-    <div>
+    <div className='overflow-hidden'>
         <Header/>
         <Section/>
+    
         <Footer/>
     </div>
   )

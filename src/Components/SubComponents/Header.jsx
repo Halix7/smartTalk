@@ -22,7 +22,7 @@ const Header = () => {
 WE ARE YOUR PATHFINDER AT EACH STEP OF <br /> ABROAD EDUCATION PROCESS
             </motion.p>
             </div>
-            <img className='absolute -top-10 -z-10 opacity-[0.9] w-full h-[70%] ' loading='lazy' src={img} alt="headerback" />
+            <img className='absolute -top-10 -z-10 opacity-[0.9] w-full h-[90%] ' loading='lazy' src={img} alt="headerback" />
         </div>
     </header>
   )
