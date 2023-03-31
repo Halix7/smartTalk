@@ -76,13 +76,7 @@ const Navbar = () => {
                   Overseas Education
                   </h1>
                 <p className='text-[0.7rem] text-center'>Home</p></Link></li>
-                <li className=" after:content-[''] relative text-xl after:absolute after:-bottom-[0.2rem] after:right-0  after:w-0 md:after:h-1 hover:after:w-[100%] hover:after:right-auto hover:after:left-0 cursor-pointer after:bg-cyan-500 after:transition-all after:duration-300 after:ease" >
-                <Link to='/application'>
-                  <h1 className='text-center'>
-                  
-                  University Admission
-                  </h1>
-                <p className='text-[0.7rem] text-center'>Application Submission</p></Link></li>
+               
                 <li className=" after:content-[''] relative text-xl after:absolute after:-bottom-[0.2rem] after:right-0  after:w-0 md:after:h-1 hover:after:w-[100%] hover:after:right-auto hover:after:left-0 cursor-pointer after:bg-cyan-500 after:transition-all after:duration-300 after:ease" >
                 <Link to='/test'>
                   <h1 className='text-center'>

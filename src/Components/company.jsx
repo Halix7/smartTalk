@@ -3,26 +3,36 @@ import React from 'react'
 const company = () => {
   return (
     <div className="bg-gray-100">
-     <header className="bg-gray-800 py-6">
-        <div className="container mx-auto px-6">
-            <h1 className="text-3xl font-bold text-white">About Us</h1>
-        </div>
-    </header>
+        <header>
+            <h1 className='cardo text-2xl font-extrabold mb-2 text-center pt-40  text-[#03045e]  '>
+            THE LEADING COMPANY IN THE FIELD OFSPOKEN ENGLISH / IELTS, PTE, <br /> COMMUNICATION SKILLS AND SKILL DEVELOPMENT
+
+            </h1>
+        </header>
 
     <section className="bg-gray-100 py-8">
         <div className="container mx-auto px-6">
             <div className="flex flex-wrap">
-                <div className="w-full lg:w-1/2 px-6">
-                    <h2 className="text-2xl font-bold mb-2">Our Story</h2>
-                    <p className="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut est auctor, molestie nunc in, fermentum libero. Donec commodo risus turpis, vitae sagittis elit maximus id. Duis maximus, odio vel aliquet consequat, lorem risus commodo erat, non ullamcorper orci risus a odio. Proin fringilla tincidunt tempor. </p>
+                <div className="w-full lg: px-6">
+                    <p className=''>
+                   <i className='text-blue-700 font-bold text-xl '>Smarttalk</i> , an ISO 9001-2008 certified company, which is into the field of quality education for last 25 years. Smarttalk is running its centers nationwide.
+<br /><br />
+At our centers, beside the communication skills young individuals are trained for IELTS and PTE. Our all program facilitators are highly skilled.
+                    </p>
+                    <h2 className="text-2xl font-extrabold my-2 spectral text-[#03045e]  ">Company profile:</h2>
+                    <p className="mb-4"><i className='text-blue-700 font-bold'>SMARTTALK NETCOM PVT LTD</i> is a certified and authorized organization by NSDC (National Skill Development Council, Govt. of India. It was incorporated in june 2005 with the vision to make India a developed country by developing skills in the youth which could make them employable in such sectors as that of Retail, Sales, Marketing, BPO & ITes, Tourism, Travel, Hospitality & other vocational Trade like plumber, electrician, cooking, AC refrigeration etc which are empowered with providing the maximum number of jobs opportunities. Hence, to improve the employability in our country, we developed such skill development programs which could easily enhance as well as can jazz up their flair in the skills which are required to make them employable.
+<br /><br />
+We are running the training centres in the field of computer education, Spoken English, customer care executive, BPO training and some other job oriented courses like data entry operator, electrician, plumber, cooking, B.P.O. /Call Centre / K.P.O., Front office Management / Receptionist, Customer Relation and Sales / Tele-caller , Sales and Retail Management / Marketing, Electrician / Motor Winding, A.C. / Fridge / Washing Machine repair etc. for weaker section of the society, we help them to get a good job after completing the course. We have done many projects with government of Punjab, MC Chandigarh etc. </p>
 
-                    <h2 className="text-2xl font-bold mb-2">Our Mission</h2>
-                    <p className="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut est auctor, molestie nunc in, fermentum libero. Donec commodo risus turpis, vitae sagittis elit maximus id. Duis maximus, odio vel aliquet consequat, lorem risus commodo erat, non ullamcorper orci risus a odio. Proin fringilla tincidunt tempor. </p>
+                    <h2 className="text-2xl font-extrabold my-2 spectral text-[#03045e] ">Our Vision & Mission</h2>
+                    <p className="mb-4">"Our vision" is to deliver a valuated core curriculum, to build public interest, pride and passion to instill an ethical work culture for social improvement through personal performance.
+<br /><br />
+"Our mission" is to develop human resources; to discover and disseminate knowledge; to extend knowledge and its application beyond the boundaries and to serve and stimulate society by developing in students heightened intellectual, cultural, and human sensitivities as well as professional and technological expertise coupled with a sense of purpose. </p>
+<h2 className="text-2xl font-extrabold my-2 spectral text-[#03045e] ">Core Value</h2>
+<p className='mb-4'>To make our countrymen more employable and to improve employee efficiency within national/ international organizations and industries.</p>
                 </div>
 
-                <div className="w-full lg:w-1/2 px-6">
-                    <img className="h-auto w-full object-cover object-center rounded-lg" src="https://images.unsplash.com/photo-1521747116042-5a810fda9664" alt="about-us"/>
-                </div>
+              
             </div>
         </div>
     </section>

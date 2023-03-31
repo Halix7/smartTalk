@@ -1,6 +1,6 @@
 import React from 'react'
 import CheckIcon from '@mui/icons-material/Check';
-import lib from "../Assets/lib.jpg";
+// import lib from "../Assets/lib.jpg";
 
 const standardizedtest = () => {
   return (
@@ -8,27 +8,27 @@ const standardizedtest = () => {
    
      
     
-    <div className={`grid md:grid-cols-2 gap-6 pt-20 md:pt-40 pb-20 px-6 bg-blue-100 `}
+    <div className={`grid md:grid-cols-2 gap-6 pt-20 md:pt-40 pb-20 px-6 bg-gray-100 `}
 
     >
       <div>
-        <h1 className='text-blue-500 text-xl md:text-3xl font-bold underline my-4'>
-        <i>
+        <h1 className='text-blue-900 text-xl md:text-3xl font-bold underline my-4 cardo '>
+     
 
         IELTS
-        </i>
+        
         </h1>
-        <h2 className=' text-blue-500 font-semibold text-xl  md:text-2xl mb-4'>
+        <h2 className=' text-blue-900 font-bold text-xl  md:text-2xl mb-4 spectral '>
           Definition
         </h2>
         <p>
-        <i className='mx-2 text-gray-600'>
+        <i className='mx-2 text-blue-600 font-bold anton '>
           IELTS
           
           </i> 
             stands for the International English Language Testing System. It is an internationally recognized test designed to assess the language ability of non-native speakers of English who want to study or work in English-speaking countries. The test is jointly owned by the British Council, IDP: IELTS Australia, and Cambridge Assessment English. The IELTS test measures the four main language skills - listening, reading, writing, and speaking - in order to determine the candidate's overall level of English proficiency. The test is available in two versions - Academic and General Training - and is taken by millions of people every year in more than 140 countries around the world.
         </p>
-        <h2 className='text-blue-500 font-semibold text-xl  md:text-2xl my-4'>
+        <h2 className='text-blue-900 font-bold text-xl  md:text-2xl my-4 spectral'>
           Details and Format
         </h2>
         <ul className='flex flex-col gap-4 '>
@@ -42,24 +42,24 @@ const standardizedtest = () => {
       </div>
 
       <div>
-      <h1 className='text-blue-500 text2xl md:text-3xl font-bold underline my-4'>
-        <i>
+      <h1 className='text-blue-900 text2xl md:text-3xl font-bold underline my-4 cardo'>
+        
 
         PTE
-        </i>
+        
         </h1>
 
-        <h2 className='font-semibold text-xl  md:text-2xl mb-4 text-blue-500'>
+        <h2 className='font-bold text-xl  md:text-2xl mb-4 text-blue-900 spectral'>
         Definition
         </h2>
         <p>
-        <i className='mx-2 text-gray-600'>
+        <i className='mx-2 text-blue-600 font-bold anton'>
         PTE  
           
           </i> 
          stands for Pearson Test of English, which is a computer-based English language proficiency test designed to evaluate the English language skills of non-native speakers. The test is developed and administered by Pearson, a leading education company, and is recognized by universities, colleges, and governments around the world. PTE assesses the candidate's ability to use English in an academic or professional setting, and measures their proficiency in four key areas: reading, writing, listening, and speaking. The test is divided into three main sections - Speaking and Writing, Reading, and Listening - and takes around three hours to complete. PTE scores are widely accepted by academic institutions and employers as proof of a candidate's English language proficiency.
         </p>
-        <h2 className='font-semibold text-xl  md:text-2xl my-4 text-blue-500'>
+        <h2 className='font-bold text-xl  md:text-2xl my-4 text-blue-900 spectral'>
         Details and Format
         </h2>
         <ul className='flex flex-col gap-4'>
