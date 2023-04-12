@@ -30,7 +30,7 @@ const standardizedtest = () => {
         IELTS
         
         </h1>
-        <div className='flex justify-center items-center min-h-[10vh] '>
+        <div className='flex justify-center items-center min-h-[10vh] cursor-pointer'>
         <motion.div transition={{layout:{duration:1 ,type:"spring"}}} layout onClick={()=>setDefinedIELTS(!isDefinedIELTS)} className='relative  m-4 p-3 bg-white' style={{borderRadius:"1rem",boxShadow:"0px 10px 30px rgba(0,0,0,0.5)"}}>
         <motion.h2 layout="position" className='text-blue-900 font-bold text-xl  md:text-2xl  spectral '>
        Defination
@@ -49,7 +49,7 @@ const standardizedtest = () => {
 }
         </motion.div>
         </div>
-        <div className='flex justify-center items-center min-h-[10vh]'>
+        <div className='flex justify-center items-center min-h-[10vh] cursor-pointer'>
 
        
         <motion.div transition={{layout:{duration:1 ,type:"spring"}}} layout onClick={()=>setIeltsDT(!isIeltsDT)} className='relative  m-4 p-3 bg-white' style={{borderRadius:"1rem",boxShadow:"0px 10px 30px rgba(0,0,0,0.5)"}}>
@@ -85,7 +85,7 @@ const standardizedtest = () => {
         PTE
         
         </h1>
-        <div className='flex justify-center items-center min-h-[10vh]'>
+        <div className='flex justify-center items-center min-h-[10vh] cursor-pointer'>
         <motion.div transition={{layout:{duration:1 ,type:"spring"}}} layout onClick={()=>setDefinedPTE(!isDefinedPTE)} className='relative  m-4 p-3 bg-white' style={{borderRadius:"1rem",boxShadow:"0px 10px 30px rgba(0,0,0,0.5)"}}>
         <motion.h2 layout="position" className='text-blue-900 font-bold text-xl  md:text-2xl  spectral '>
        Defination
@@ -105,7 +105,7 @@ const standardizedtest = () => {
         }
         </motion.div>
         </div>
-        <div className='flex justify-center items-center min-h-[10vh]'>
+        <div className='flex justify-center items-center min-h-[10vh] cursor-pointer'>
 
        
 <motion.div transition={{layout:{duration:1 ,type:"spring"}}} layout onClick={()=>setPTEDT(!isPTEDT)} className='relative  m-4 p-3 bg-white' style={{borderRadius:"1rem",boxShadow:"0px 10px 30px rgba(0,0,0,0.5)"}}>
