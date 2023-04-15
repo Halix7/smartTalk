@@ -91,7 +91,7 @@ const Canada = () => {
         </a>
       </div>
       <div className='my-4 mx-3 text-sm'>
-        <h1 className='text-2xl font-extrabold text-blue-600'>
+        <h1 className='text-2xl font-extrabold text-orange-600'>
         Study in Canada
         </h1>
         <p>
@@ -99,46 +99,46 @@ const Canada = () => {
         Among all prime international education destinations, it is Canada that holds the topmost position. Canada is recognized as the safest international education destination in the world offering high-quality of life and education. Now, acknowledging the popularity of study in Canada as a preferred international study destination, let us find out in below paragraphs as what makes Canada, the No. 1 international education destination. <br /> <br />
         Canada has witnessed tremendous growth in the number of international education aspirants, over the years and this growth is increasing with each passing years. The UN survey has rated Canada for the consecutive ninth year as among the top most preferred countries in the world to live. Canada boosts of its peaceful, friendly, secured and compassionate community. The country has its complete faith in equivalence, diversity, admiration and tolerance for all individuals as it is given in Canadian Charter of Rights and Freedoms and the Canadian Multiculturalism Act.
         </p>
-        <h2 className='text-2xl font-extrabold text-blue-600 mt-5'>
+        <h2 className='text-2xl font-extrabold text-orange-600 mt-5'>
         Benefits of Studying in Canada
         </h2>
         <p>
         Studying in Canada is a lifetime opportunity as the country’s educational institutes maintain high standards of academic excellence and are continuously acknowledged among the top international rankings. The parameters that make Canada the most preferred education destination may include:
         </p>
-        <h3 className='text-2xl font-extrabold text-blue-600 mt-5'>
+        <h3 className='text-2xl font-extrabold text-orange-600 mt-5'>
         Diversified Programs
         </h3>
         <p>
         The educational institute in Canada offers a wide variety of programs to international students to choose from. Students from across the globe come to Canada for higher education prospects and Canadian universities offer more than 10,000 undergraduate and graduate degree programs, as well as professional degree programs and certificate courses. Students can also choose to pursue various programs like degrees, diplomas, certificate programs, short courses, and so on across industries including; telecommunications, agriculture, computer technology, medicine, business studies, and environmental science agriculture, fisheries, paramedical technology and so on.
         </p>
-        <h3 className='text-2xl font-extrabold text-blue-600 mt-5'>
+        <h3 className='text-2xl font-extrabold text-orange-600 mt-5'>
         Affordability
         </h3>
         <p>
         Comparing the fee structure of the institutes across industries in prime international education destinations indicates that Canada is the most affordable of all including; US, UK, New Zealand, Australia and so on.
         </p>
-        <h3 className='text-2xl font-extrabold text-blue-600 mt-5'>
+        <h3 className='text-2xl font-extrabold text-orange-600 mt-5'>
         Scholarship or Financial Assistance in Study in Canada
         </h3>
         <p>
         Acknowledging the passion among the Indian students to excel, the Canadian universities and colleges enthusiastically welcome and admit Indian students to their academic programs. Also, Canadian Government admits that international students bring fresh innovative ideas to Canada, thus, contributing a great deal to the wide range of disciplines and the industry with the knowledge and understanding that they carry with themselves while moving to Canada. Canadian Government also offers various scholarship and financial assistance schemes to the most deserving international students.
         </p>
-        <h3 className='text-2xl font-extrabold text-blue-600 mt-5'>
+        <h3 className='text-2xl font-extrabold text-orange-600 mt-5'>
         Better Future Career Prospects in Canada
         </h3>
         <p>
         On successful completion of the studies in Canada the students will get the chance to enhance their career prospects as they will become the preferred choice of the employers across industries. Moreover, possessing an international exposure will prepare them for a rewarding career ahead. Also, it will enhance their chances to settle down in the country permanently, after gaining an experience of one year.
         </p>
       <div className="relative w-full lg:max-w-sm">
-        <div className="box border-[3px] border-blue-600 my-3 px-2 py-1">
+        <div className="box border-[3px] border-orange-600 my-3 px-2 py-1">
           <div className='flex justify-between ' >
 
-          <h1 className='text-2xl text-blue-600'>
+          <h1 className='text-2xl text-orange-600'>
             Top University in Canada
           </h1>
           <button className='cursor-pointer  ' onClick={handleOpen}>
 
-          <KeyboardArrowUpIcon className={` text-blue-600 font-extrabold  ${open && "rotate-180 "}`}    />
+          <KeyboardArrowUpIcon className={` text-orange-600 font-extrabold  ${open && "rotate-180 "}`}    />
           </button>
           </div>
           {

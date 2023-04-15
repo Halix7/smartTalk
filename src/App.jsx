@@ -1,3 +1,5 @@
+import Contact from "./Components/Contact";
+import Form from "./Components/Form";
 import Home from "./Components/Home"
 import Navbar from "./Components/Navbar"
 import Company from "./Components/company";
@@ -13,6 +15,7 @@ function App() {
         <Route exact default path="/" element={<Home/>} />
         <Route exact default path="/about" element={<Company/>} />
         <Route exact default path="/test" element={<Test/>} />
+        <Route exact default path="/form" element={<Form/>} />
         <Route exact default path="*" element={<Home/>} />
       </Routes>
     

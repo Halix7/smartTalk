@@ -85,7 +85,7 @@ const Australia = () => {
        
       </div>
       <div className='my-4 mx-3 text-sm'>
-        <h1 className='text-2xl font-extrabold text-blue-600'>
+        <h1 className='text-2xl font-extrabold text-orange-600'>
         Australia
         </h1>
         <p>
@@ -99,65 +99,65 @@ const Australia = () => {
         Top Education Hubs to study in Australia:
         </span> Sydney, Brisbane, Adelaide, Melbourne, and Perth
         </p>
-        <h4 className='text-xl font-extrabold text-blue-600 mt-3'>
+        <h4 className='text-xl font-extrabold text-orange-600 mt-3'>
         Australia General Application Process followed in Australia involves following steps:
         </h4>
         <ul className='flex flex-col gap-3 mt-4'>
           <li>
-          <CheckIcon className='text-blue-400 font-extrabold mx-3 '/>
+          <CheckIcon className='text-orange-400 font-extrabold mx-3 '/>
           Submitting Application for admission
           </li>
           <li>
-          <CheckIcon className='text-blue-400 font-extrabold mx-3 '/>
+          <CheckIcon className='text-orange-400 font-extrabold mx-3 '/>
           Getting an Offer Letter
           </li>
           <li>
-          <CheckIcon className='text-blue-400 font-extrabold mx-3 '/>
+          <CheckIcon className='text-orange-400 font-extrabold mx-3 '/>
           GTE Approval
           </li>
           <li>
-          <CheckIcon className='text-blue-400 font-extrabold mx-3 '/>
+          <CheckIcon className='text-orange-400 font-extrabold mx-3 '/>
           Fee Payment
           </li>
           <li>
-          <CheckIcon className='text-blue-400 font-extrabold mx-3 '/>
+          <CheckIcon className='text-orange-400 font-extrabold mx-3 '/>
           Confirmation of Enrolment
           </li>
           <li>
-          <CheckIcon className='text-blue-400 font-extrabold mx-3 '/>
+          <CheckIcon className='text-orange-400 font-extrabold mx-3 '/>
           Visa Application
           </li>
         </ul>
-        <h4 className='text-xl font-extrabold text-blue-600 mt-3'>
+        <h4 className='text-xl font-extrabold text-orange-600 mt-3'>
         Essential documentation required:
         </h4>
         <ul className='flex flex-col gap-3 mt-4' >
           <li>
-          <CheckIcon className='text-blue-400 font-extrabold mx-3 '/>
+          <CheckIcon className='text-orange-400 font-extrabold mx-3 '/>
           The notary attested photocopies of 10th, 12th, Graduate Degree (if applicable) or Certificates of all the academic accomplishments Mark Sheets including Backlogs
           </li>
           <li>
-          <CheckIcon className='text-blue-400 font-extrabold mx-3 '/>
+          <CheckIcon className='text-orange-400 font-extrabold mx-3 '/>
           Proof of English Language proficiency e.g. IELTS, TOEFL, PTE
           </li>
           <li>
-          <CheckIcon className='text-blue-400 font-extrabold mx-3 '/>
+          <CheckIcon className='text-orange-400 font-extrabold mx-3 '/>
           Statement of Purpose (SOP)
           </li>
           <li>
-          <CheckIcon className='text-blue-400 font-extrabold mx-3 '/>
+          <CheckIcon className='text-orange-400 font-extrabold mx-3 '/>
           Resume/CV (including all details)
           </li>
           <li>
-          <CheckIcon className='text-blue-400 font-extrabold mx-3 '/>
+          <CheckIcon className='text-orange-400 font-extrabold mx-3 '/>
           Confirmation of Enrolment
           </li>
           <li>
-          <CheckIcon className='text-blue-400 font-extrabold mx-3 '/>
+          <CheckIcon className='text-orange-400 font-extrabold mx-3 '/>
           Other Certificates & Achievements of Extracurricular Activities
           </li>
         </ul>
-        <h4 className='text-xl font-extrabold text-blue-600 mt-3'>
+        <h4 className='text-xl font-extrabold text-orange-600 mt-3'>
         BENEFITS OF STUDYING IN AUSTRALIA
         </h4>
         <span>
@@ -165,37 +165,37 @@ const Australia = () => {
         </span>
         <ul className="flex flex-col gap-3  mt-2">
           <li>
-          <CheckIcon className='text-blue-400 font-extrabold mx-3 '/>
+          <CheckIcon className='text-orange-400 font-extrabold mx-3 '/>
           Practical and career-oriented training with opportunity for paid internships.
           </li>
           <li>
-          <CheckIcon className='text-blue-400 font-extrabold mx-3 '/>
+          <CheckIcon className='text-orange-400 font-extrabold mx-3 '/>
           Adopts new technologies at a faster rate than in most other countries with one of the highest rates of internet access in the world
           </li>
           <li>
-          <CheckIcon className='text-blue-400 font-extrabold mx-3 '/>
+          <CheckIcon className='text-orange-400 font-extrabold mx-3 '/>
           Australian qualifications and the skills imparted are recognized by global employers.
           </li>
           <li>
-          <CheckIcon className='text-blue-400 font-extrabold mx-3 '/>
+          <CheckIcon className='text-orange-400 font-extrabold mx-3 '/>
           Most of the courses and training undertaken by international students in Australia are covered by Australian Qualification Framework (AQF), and authorized by the Australian government.
           </li>
           <li>
-          <CheckIcon className='text-blue-400 font-extrabold mx-3 '/>
+          <CheckIcon className='text-orange-400 font-extrabold mx-3 '/>
           The country is committed to providing quality education to students -- be it national or international.
           </li>
           <li>
-          <CheckIcon className='text-blue-400 font-extrabold mx-3 '/>
+          <CheckIcon className='text-orange-400 font-extrabold mx-3 '/>
           Australia is a safe, multicultural, friendly and harmonious society.
           </li>
         </ul>
-        <h4 className='text-xl font-extrabold text-blue-600 mt-3'  >
+        <h4 className='text-xl font-extrabold text-orange-600 mt-3'  >
         COST OF STUDYING & LIVING IN AUSTRALIA
         </h4>
         <p>
         To study in Australia a student is required to provide proof of financial resources. Also the student need to ensure that the possession of enough funds to study in Australia and take care of living expenses during initial years of education in Australia. The Department of Immigration and Citizenship has set few financial requirements that student must fulfill to study in Australia. Student must have equivalent to one return airfare to the country of Australia ( AUD 2,000), the course fees and approximately AUD 20,290 for the cost of living depending upon the place of living and school one is attending. If the student is married, he/she must also have an extra AUD 7,100 for the spouse as well. In case the student has children under the age of 6, the first one will also add another airfare and $3,040 per year.
         </p>
-        <h4 className='text-xl font-extrabold text-blue-600 mt-3'>
+        <h4 className='text-xl font-extrabold text-orange-600 mt-3'>
         STUDY IN AUSTRALIA SCHOLARSHIPS FOR INTERNATIONAL STUDENTS
         </h4>
         <p>
@@ -205,7 +205,7 @@ const Australia = () => {
         For more details the best thing to do is to visit the nearest Ganesha Overseas Unisearch office, an authorized AAERI (The Association of Australian Education Representatives in India) member. At Ganesha Overseas Unisearch, students will be given the step-by-step guidance for submitting visa application which will ensure a smooth and hassle-free process.
         </span>
         </p>
-        <h4 className='text-xl font-extrabold text-blue-600 mt-3'>
+        <h4 className='text-xl font-extrabold text-orange-600 mt-3'>
         POPULAR COURSES IN AUSTRALIA
         </h4>
         <p>
@@ -215,37 +215,37 @@ const Australia = () => {
         </p>
         <ul className='flex flex-col gap-3 mt-4'>
           <li>
-          <CheckIcon className='text-blue-400 font-extrabold mx-3 '/>
+          <CheckIcon className='text-orange-400 font-extrabold mx-3 '/>
           Arts
           </li>
 
           <li>
-          <CheckIcon className='text-blue-400 font-extrabold mx-3 '/>
+          <CheckIcon className='text-orange-400 font-extrabold mx-3 '/>
           Business & Management
           </li>
           <li>
-          <CheckIcon className='text-blue-400 font-extrabold mx-3 '/>
+          <CheckIcon className='text-orange-400 font-extrabold mx-3 '/>
           Medicine
           </li>
           <li>
-          <CheckIcon className='text-blue-400 font-extrabold mx-3 '/>
+          <CheckIcon className='text-orange-400 font-extrabold mx-3 '/>
           Accounting & Finance
           </li>
           <li>
-          <CheckIcon className='text-blue-400 font-extrabold mx-3 '/>
+          <CheckIcon className='text-orange-400 font-extrabold mx-3 '/>
           Education
           </li>
           <li>
-          <CheckIcon className='text-blue-400 font-extrabold mx-3 '/>
+          <CheckIcon className='text-orange-400 font-extrabold mx-3 '/>
           Engineering - Information & Technology
           </li>
           <li>
-          <CheckIcon className='text-blue-400 font-extrabold mx-3 '/>
+          <CheckIcon className='text-orange-400 font-extrabold mx-3 '/>
           Law & Criminal Justice
           </li>
 
           <li>
-          <CheckIcon className='text-blue-400 font-extrabold mx-3 '/>
+          <CheckIcon className='text-orange-400 font-extrabold mx-3 '/>
           Hospitality & Tourism Management
           </li>
 

@@ -14,32 +14,32 @@ const standardizedtest = () => {
    
      
     
-    <div className={`grid md:grid-cols-2 gap-6 pt-20 md:pt-40 pb-20 px-6 bg-gray-100 `}
+    <header className={`grid md:grid-cols-2 gap-6 pt-20 md:pt-40 pb-20 px-6 bg-gray-100 `}
 
     >
-   <img src={img1} alt="img" className='opacity-60 absolute inset-0 w-[100%] h-[100%]'/>
+   <img loading='lazy' src={img1} alt="img" className='opacity-60 absolute inset-0 w-[100%] h-[100%]'/>
       <div className='backdrop-blur-lg rounded-lg' >
 
         
 
 
     
-        <h1 className='text-blue-900 text-xl md:text-3xl font-bold underline my-4 cardo text-center'>
+        <h1 className='text-orange-700 text-xl md:text-3xl font-bold underline my-4 cardo text-center'>
      
 
         IELTS
         
         </h1>
-        <div className='flex justify-center items-center min-h-[10vh] cursor-pointer'>
-        <motion.div transition={{layout:{duration:1 ,type:"spring"}}} layout onClick={()=>setDefinedIELTS(!isDefinedIELTS)} className='relative  m-4 p-3 bg-white' style={{borderRadius:"1rem",boxShadow:"0px 10px 30px rgba(0,0,0,0.5)"}}>
-        <motion.h2 layout="position" className='text-blue-900 font-bold text-xl  md:text-2xl  spectral '>
+        <div className='flex justify-center items-center min-h-[10vh]   '>
+        <motion.div transition={{layout:{duration:1 ,type:"spring"}}} layout onClick={()=>setDefinedIELTS(!isDefinedIELTS)} className='relative  m-4 p-3 bg-white  cursor-pointer  ' style={{borderRadius:"1rem",boxShadow:"0px 10px 30px rgba(0,0,0,0.5)"}}>
+        <motion.h2 layout="position" className='text-orange-600 font-bold text-xl  md:text-2xl  spectral '>
        Defination
         </motion.h2>
         {isDefinedIELTS &&
         <motion.div initial={{opacity:0}} animate={{opacity:1}}  transition={{duration:1}}>
 
         <p>
-        <i className='mx-2 text-blue-600 font-bold anton '>
+        <i className='mx-2 text-orange-600 font-bold anton '>
           IELTS
           
           </i> 
@@ -49,13 +49,13 @@ const standardizedtest = () => {
 }
         </motion.div>
         </div>
-        <div className='flex justify-center items-center min-h-[10vh] cursor-pointer'>
+        <div className='flex justify-center items-center min-h-[10vh]     '>
 
        
-        <motion.div transition={{layout:{duration:1 ,type:"spring"}}} layout onClick={()=>setIeltsDT(!isIeltsDT)} className='relative  m-4 p-3 bg-white' style={{borderRadius:"1rem",boxShadow:"0px 10px 30px rgba(0,0,0,0.5)"}}>
+        <motion.div transition={{layout:{duration:1 ,type:"spring"}}} layout onClick={()=>setIeltsDT(!isIeltsDT)} className='relative  m-4 p-3 bg-white  cursor-pointer  ' style={{borderRadius:"1rem",boxShadow:"0px 10px 30px rgba(0,0,0,0.5)"}}>
 
      
-        <motion.h2 layout="position" className='text-blue-900 font-bold text-xl  md:text-2xl  spectral '>
+        <motion.h2 layout="position" className='text-orange-600 font-bold text-xl  md:text-2xl  spectral '>
           Details and Format
         </motion.h2>
         
@@ -64,30 +64,39 @@ const standardizedtest = () => {
         <motion.div initial={{opacity:0}} animate={{opacity:1}}  transition={{duration:1}}>
 
         <ul className='flex flex-col gap-4 '>
-          <li>    <CheckIcon className='text-blue-400 font-extrabold mx-3 '/> IELTS is an English proficiency test jointly owned by the British Council, IDP: IELTS Australia & Cambridge English.</li>
-          <li>    <CheckIcon className='text-blue-400 font-extrabold mx-3 '/> Governments prefer IELTS Academic for studies and IELTS General for migration in most countries than any other English language test. 10,000+ overseas organisations have listed that IELTS is mandatory on their websites.</li>
-          <li>   <CheckIcon className='text-blue-400 font-extrabold mx-3 '/>IELTS has two options: a standard pen and paper-based exam and a computerised one. Most centres have both options, allowing you to choose as per convenience. </li>
-          <li>   <CheckIcon className='text-blue-400 font-extrabold mx-3 '/>IELTS has four major sections, the Listening, Reading, and Writing tests which are done in one sitting. Then we have the Speaking test, which may be on the same day or within seven days before or after the other tests.</li>
-          <li>   <CheckIcon className='text-blue-400 font-extrabold mx-3 '/>The results are available after 13 days of the test. Test centres will see that the Report Form reaches you within 13 days.</li>
-          <li>   <CheckIcon className='text-blue-400 font-extrabold mx-3 '/>For evaluation, some specialised examiners conduct the speaking section of the exam. And to assess your writing section, a specialised examiner will read and evaluate your writing tasks.</li>
+          <li>    <CheckIcon className='text-green-400 font-extrabold mx-3 '/> IELTS is an English proficiency test jointly owned by the British Council, IDP: IELTS Australia & Cambridge English.</li>
+          <li>    <CheckIcon className='text-green-400 font-extrabold mx-3 '/> Governments prefer IELTS Academic for studies and IELTS General for migration in most countries than any other English language test. 10,000+ overseas organisations have listed that IELTS is mandatory on their websites.</li>
+          <li>   <CheckIcon className='text-green-400 font-extrabold mx-3 '/>IELTS has two options: a standard pen and paper-based exam and a computerised one. Most centres have both options, allowing you to choose as per convenience. </li>
+          <li>   <CheckIcon className='text-green-400 font-extrabold mx-3 '/>IELTS has four major sections, the Listening, Reading, and Writing tests which are done in one sitting. Then we have the Speaking test, which may be on the same day or within seven days before or after the other tests.</li>
+          <li>   <CheckIcon className='text-green-400 font-extrabold mx-3 '/>The results are available after 13 days of the test. Test centres will see that the Report Form reaches you within 13 days.</li>
+          <li>   <CheckIcon className='text-green-400 font-extrabold mx-3 '/>For evaluation, some specialised examiners conduct the speaking section of the exam. And to assess your writing section, a specialised examiner will read and evaluate your writing tasks.</li>
         </ul>
         </motion.div>
 }
         
         </motion.div>
         </div>
+        <div className='flex justify-center my-5'>
+
+<button className="py-2 px-4   bg-white text-green-700 hover:bg-green-700 hover:text-white font-bold rounded-lg shadow-md  active:bg-gray-300">
+  <a target='_blank' rel='noopener noreferrer' href="https://www.smarttalk.in/crm/public/">
+
+Login For Classes
+  </a>
+</button>
+</div>
       </div>
 
       <div className='backdrop-blur-lg rounded-lg'>
-      <h1 className='text-blue-900 text-xl md:text-3xl font-bold underline my-4 cardo text-center'>
+      <h1 className='text-orange-700 text-xl md:text-3xl font-bold underline my-4 cardo text-center'>
         
 
         PTE
         
         </h1>
-        <div className='flex justify-center items-center min-h-[10vh] cursor-pointer'>
+        <div className='flex justify-center items-center min-h-[10vh]  cursor-pointer  '>
         <motion.div transition={{layout:{duration:1 ,type:"spring"}}} layout onClick={()=>setDefinedPTE(!isDefinedPTE)} className='relative  m-4 p-3 bg-white' style={{borderRadius:"1rem",boxShadow:"0px 10px 30px rgba(0,0,0,0.5)"}}>
-        <motion.h2 layout="position" className='text-blue-900 font-bold text-xl  md:text-2xl  spectral '>
+        <motion.h2 layout="position" className='text-orange-600 font-bold text-xl  md:text-2xl  spectral '>
        Defination
         </motion.h2>
         {isDefinedPTE &&
@@ -95,7 +104,7 @@ const standardizedtest = () => {
 
        
         <p>
-        <i className='mx-2 text-blue-600 font-bold anton'>
+        <i className='mx-2 text-orange-600 font-bold anton'>
         PTE  
           
           </i> 
@@ -105,13 +114,13 @@ const standardizedtest = () => {
         }
         </motion.div>
         </div>
-        <div className='flex justify-center items-center min-h-[10vh] cursor-pointer'>
+        <div className='flex justify-center items-center min-h-[10vh]  '>
 
        
-<motion.div transition={{layout:{duration:1 ,type:"spring"}}} layout onClick={()=>setPTEDT(!isPTEDT)} className='relative  m-4 p-3 bg-white' style={{borderRadius:"1rem",boxShadow:"0px 10px 30px rgba(0,0,0,0.5)"}}>
+<motion.div transition={{layout:{duration:1 ,type:"spring"}}} layout onClick={()=>setPTEDT(!isPTEDT)} className='relative  m-4 p-3  cursor-pointer   bg-white' style={{borderRadius:"1rem",boxShadow:"0px 10px 30px rgba(0,0,0,0.5)"}}>
 
 
-<motion.h2 layout="position" className='text-blue-900 font-bold text-xl  md:text-2xl  spectral '>
+<motion.h2 layout="position" className='text-orange-600 font-bold text-xl  md:text-2xl  spectral '>
   Details and Format
 </motion.h2>
 
@@ -120,12 +129,12 @@ const standardizedtest = () => {
 <motion.div initial={{opacity:0}} animate={{opacity:1}}  transition={{duration:1}}>
 
         <ul className='flex flex-col gap-4'>
-          <li>   <CheckIcon className='text-blue-400 font-extrabold mx-3 '/>The PTE Academic test is conducted by Pearson PLC, a British multinational publishing headquartered in London. It is the world’s best learning company.</li>
-          <li>   <CheckIcon className='text-blue-400 font-extrabold mx-3 '/>PTE Academic is critically acclaimed by some of the best universities worldwide, including Harvard Business School, Yale, etc. PTE Academic is accepted for visa purposes by Australia and New Zealand too.</li>
-          <li>   <CheckIcon className='text-blue-400 font-extrabold mx-3 '/>PTE is a computerised test. You need to click the correct options and speak your answers to the headset for the speaking test.</li>
-          <li>   <CheckIcon className='text-blue-400 font-extrabold mx-3 '/>PTE Academic has three main parts, Listening, Reading, Speaking and Writing, which can be completed within 3 hours in one sitting.</li>
-          <li>   <CheckIcon className='text-blue-400 font-extrabold mx-3 '/>PTE results are mostly published within five business days. Most students receive the results within three days as well. In a small number of cases, it may take more than five days.</li>
-          <li>   <CheckIcon className='text-blue-400 font-extrabold mx-3 '/>The assessment for the PTE is completely automated and conducted by a computer program. There is no one physically analysing the writing and speaking.</li>
+          <li>   <CheckIcon className='text-green-400 font-extrabold mx-3 '/>The PTE Academic test is conducted by Pearson PLC, a British multinational publishing headquartered in London. It is the world’s best learning company.</li>
+          <li>   <CheckIcon className='text-green-400 font-extrabold mx-3 '/>PTE Academic is critically acclaimed by some of the best universities worldwide, including Harvard Business School, Yale, etc. PTE Academic is accepted for visa purposes by Australia and New Zealand too.</li>
+          <li>   <CheckIcon className='text-green-400 font-extrabold mx-3 '/>PTE is a computerised test. You need to click the correct options and speak your answers to the headset for the speaking test.</li>
+          <li>   <CheckIcon className='text-green-400 font-extrabold mx-3 '/>PTE Academic has three main parts, Listening, Reading, Speaking and Writing, which can be completed within 3 hours in one sitting.</li>
+          <li>   <CheckIcon className='text-green-400 font-extrabold mx-3 '/>PTE results are mostly published within five business days. Most students receive the results within three days as well. In a small number of cases, it may take more than five days.</li>
+          <li>   <CheckIcon className='text-green-400 font-extrabold mx-3 '/>The assessment for the PTE is completely automated and conducted by a computer program. There is no one physically analysing the writing and speaking.</li>
         </ul>
         
         </motion.div>
@@ -133,8 +142,17 @@ const standardizedtest = () => {
 
         </motion.div>
       </div>
+      <div className='flex justify-center my-5'>
+
+        <button className="py-2 px-4   bg-white text-green-700 hover:bg-green-700 hover:text-white font-bold rounded-lg shadow-md  active:bg-gray-300">
+          <a target='_blank' rel='noopener noreferrer' href="https://smartwaystudy.genebyte.com/index.php?r=signin">
+
+      Login For Classes
+          </a>
+    </button>
       </div>
-    </div>
+      </div>
+    </header>
     </>
   )
 }

@@ -85,7 +85,7 @@ const Uk = () => {
       </a>
       </div>
       <div className='my-4 mx-3 text-sm'>
-        <h1 className='text-2xl font-extrabold text-blue-600'>
+        <h1 className='text-2xl font-extrabold text-orange-600'>
         Study in United Kingdom (UK)
         </h1>
         <p>
@@ -95,7 +95,7 @@ const Uk = () => {
         Not only in terms of education but in terms of diverse culture, the UK is known for its multicultural student environment. You will get to know different people across the globe. <br /> <br />
         Studying in UK will lead you to reach the desired goal and be successful in your field of study.
         </p>
-        <h2 className='text-xl font-extrabold text-blue-600 mt-5'>
+        <h2 className='text-xl font-extrabold text-orange-600 mt-5'>
         Reasons to Study in UK
         </h2>
         <p>

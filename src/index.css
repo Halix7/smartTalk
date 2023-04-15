@@ -21,3 +21,10 @@
 .cardo {
     font-family: 'Cardo', serif;
 }
+
+
+/* Set height for the container element */
+
+.h-full {
+    height: 100%;
+}

@@ -66,7 +66,7 @@ const Usa = () => {
         </a>
         </div>
         <div className='my-4 mx-3 text-sm'>
-          <h1 className='text-2xl font-extrabold text-blue-600'>
+          <h1 className='text-2xl font-extrabold text-orange-600'>
 Study in United States of America (USA)
           </h1>
           <p>

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import Contact from '../Contact';
 
 const Footer = () => {
   return (
@@ -20,6 +21,10 @@ const Footer = () => {
         PTE
        </Link>
        <Link/>
+       <div>
+        <h1 className='font-bold text-xl m-1'>Contact Us</h1>
+        <Contact/>
+       </div>
         </div>
         <div className="contact ">
             <h1 className='text-xl  mb-2' >Contact Information</h1>
@@ -29,11 +34,17 @@ const Footer = () => {
                     Haryana 136035
                 </li>
                 <li>
+                    <p>
+
                    +91 9050006588
+                    </p>
+                    <p>
+                    +91 9050006588
+                    </p>
 
                 </li>
                 <li>
-                    gmailid@gmail.com
+                    smartwaycheeka@gmail.com
                 </li>
             </ul>
 

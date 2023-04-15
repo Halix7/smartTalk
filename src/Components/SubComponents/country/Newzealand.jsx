@@ -83,7 +83,7 @@ const Newzealand = () => {
     
       </div>
       <div  className='my-4 mx-3 text-sm'>
-        <h1 className='text-2xl font-extrabold text-blue-600'>
+        <h1 className='text-2xl font-extrabold text-orange-600'>
         Study in NewZealand
         </h1>
         <p>
@@ -94,36 +94,36 @@ const Newzealand = () => {
         </h2>
         <ul className='flex flex-col gap-3 mt-4'>
           <li>
-          <CheckIcon className='text-blue-400 font-extrabold mx-3 '/>
+          <CheckIcon className='text-orange-400 font-extrabold mx-3 '/>
 
           An education system that is fit for purpose in preparing students for a global career, with teaching and curriculum that is industry-connected
           </li>
           <li>
-          <CheckIcon className='text-blue-400 font-extrabold mx-3 '/>
+          <CheckIcon className='text-orange-400 font-extrabold mx-3 '/>
 
           Advanced technology, with 98 per cent of New Zealand education institutions connected to fast and uncapped broadband connections
           </li>
           <li>
-          <CheckIcon className='text-blue-400 font-extrabold mx-3 '/>
+          <CheckIcon className='text-orange-400 font-extrabold mx-3 '/>
 
           A curriculum framework that encourages students to experiment and to deliver new, creative solutions to problems
           </li>
         </ul>
-        <h2 className='text-xl font-extrabold text-blue-600 mt-3'>
+        <h2 className='text-xl font-extrabold text-orange-600 mt-3'>
         Global career opportunities
         </h2>
         <ul className='flex flex-col gap-3 mt-4'>
           <li>
-          <CheckIcon className='text-blue-400 font-extrabold mx-3 '/>
+          <CheckIcon className='text-orange-400 font-extrabold mx-3 '/>
           In 2018 the New Zealand Government has introduced a three-year open post-study work visa for all international students studying Bachelor’s Degrees, Master’s Degrees and PhD qualifications, one of the most generous post-study work policies in the world.
           </li>
           <li>
-          <CheckIcon className='text-blue-400 font-extrabold mx-3 '/>
+          <CheckIcon className='text-orange-400 font-extrabold mx-3 '/>
 
           Students can also work up to 20 hours per week during term time or 40 hours per week during holidays when studying.
           </li>
           <li>
-          <CheckIcon className='text-blue-400 font-extrabold mx-3 '/>
+          <CheckIcon className='text-orange-400 font-extrabold mx-3 '/>
 
           New Zealand institutions offer ’work-ready’ programmes and internships, ensuring that students can connect with New Zealand based firms and multinational companies.
           </li>
@@ -139,27 +139,27 @@ const Newzealand = () => {
         </span>
         <ul className='flex flex-col gap-3 mt-4'>
           <li>
-          <CheckIcon className='text-blue-400 font-extrabold mx-3 '/>
+          <CheckIcon className='text-orange-400 font-extrabold mx-3 '/>
 
           Academic documents till date
           </li>
           <li>
-          <CheckIcon className='text-blue-400 font-extrabold mx-3 '/>
+          <CheckIcon className='text-orange-400 font-extrabold mx-3 '/>
 
           IELTS/TOEFL Score (5.5/6.0 for diploma, 6.0 for the Bachelor & 6.5 for Master)
           </li>
           <li>
-          <CheckIcon className='text-blue-400 font-extrabold mx-3 '/>
+          <CheckIcon className='text-orange-400 font-extrabold mx-3 '/>
 
           Passport
           </li>
           <li>
-          <CheckIcon className='text-blue-400 font-extrabold mx-3 '/>
+          <CheckIcon className='text-orange-400 font-extrabold mx-3 '/>
 
           Work Experience (If any)
           </li>
           <li>
-          <CheckIcon className='text-blue-400 font-extrabold mx-3 '/>
+          <CheckIcon className='text-orange-400 font-extrabold mx-3 '/>
 
           University/College Application form (Offer letter processing time 1 to 2 weeks)
           </li>
@@ -168,17 +168,17 @@ const Newzealand = () => {
         <span className='font-bold'>For Visa Purpose</span>
         <ul className='flex flex-col gap-3 mt-4'>
           <li>
-          <CheckIcon className='text-blue-400 font-extrabold mx-3 '/>
+          <CheckIcon className='text-orange-400 font-extrabold mx-3 '/>
 
           Passport or travel document:
           </li>
           <li>
-          <CheckIcon className='text-blue-400 font-extrabold mx-3 '/>
+          <CheckIcon className='text-orange-400 font-extrabold mx-3 '/>
 
           Offer letter from the College or University
           </li>
         </ul>
-        <h2 className='text-xl font-extrabold text-blue-600 mt-3'>
+        <h2 className='text-xl font-extrabold text-orange-600 mt-3'>
         Financial Documents:
         </h2>
         <p>
@@ -186,54 +186,54 @@ const Newzealand = () => {
         </p>
         <ul className='flex flex-col gap-3 mt-4'>
           <li>
-          <CheckIcon className='text-blue-400 font-extrabold mx-3 '/>
+          <CheckIcon className='text-orange-400 font-extrabold mx-3 '/>
 
           Medical Certificate
           </li>
 
           <li>
-          <CheckIcon className='text-blue-400 font-extrabold mx-3 '/>
+          <CheckIcon className='text-orange-400 font-extrabold mx-3 '/>
 
           Police Clearance Certificate
           </li>
           <li>
-          <CheckIcon className='text-blue-400 font-extrabold mx-3 '/>
+          <CheckIcon className='text-orange-400 font-extrabold mx-3 '/>
 
           Student Visa application form and the supplementary information form
           </li>
           <li>
-          <CheckIcon className='text-blue-400 font-extrabold mx-3 '/>
+          <CheckIcon className='text-orange-400 font-extrabold mx-3 '/>
 
           Photograph
           </li>
           <li>
-          <CheckIcon className='text-blue-400 font-extrabold mx-3 '/>
+          <CheckIcon className='text-orange-400 font-extrabold mx-3 '/>
 
           Visa Application Fees
           </li>
           <li>
-          <CheckIcon className='text-blue-400 font-extrabold mx-3 '/>
+          <CheckIcon className='text-orange-400 font-extrabold mx-3 '/>
 
           Covering letter
           </li>
           <li>
-          <CheckIcon className='text-blue-400 font-extrabold mx-3 '/>
+          <CheckIcon className='text-orange-400 font-extrabold mx-3 '/>
 
           Educational certificates (with translations if required)
           </li>
           <li>
-          <CheckIcon className='text-blue-400 font-extrabold mx-3 '/>
+          <CheckIcon className='text-orange-400 font-extrabold mx-3 '/>
 
           English language requirement
           </li>
           <li>
-          <CheckIcon className='text-blue-400 font-extrabold mx-3 '/>
+          <CheckIcon className='text-orange-400 font-extrabold mx-3 '/>
 
           Evidence of Employment
 
           </li>
         </ul>
-        <h2 className='text-xl font-extrabold text-blue-600 mt-3'>
+        <h2 className='text-xl font-extrabold text-orange-600 mt-3'>
         Cost of Studying & Living in New Zealand
         </h2>
         <p>
