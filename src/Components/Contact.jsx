@@ -1,6 +1,5 @@
 import React from 'react'
-import InstagramIcon from '@mui/icons-material/Instagram';
-import FacebookIcon from '@mui/icons-material/Facebook';
+
 import Modal from "./SubComponents/Modal";
 
 const Contact = () => {
@@ -14,16 +13,7 @@ const Contact = () => {
           </a>
         </button>
       </div>
-      <div className="social my-2 ">
-        <a target='_blank' rel='noopener noreferrer' href="https://instagram.com/smart_talk_cheeka?r=nametag">
-
-        <InstagramIcon/>
-        </a>
-        <a target='_blank' rel='noopener noreferrer' href="https://www.facebook.com/smarttalk.chika.1?mibextid=LQQJ4d">
-
-        <FacebookIcon/>
-        </a>
-      </div>
+      
       <div className="qr">
         <Modal/>
       </div>

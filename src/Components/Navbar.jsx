@@ -2,7 +2,8 @@ import React,{useState} from 'react';
 // import smarttalk from "../Assets/smarttalk.png";
 import sm from "../Assets/smartway.png"
 import { Link } from 'react-router-dom';
-
+import InstagramIcon from '@mui/icons-material/Instagram';
+import FacebookIcon from '@mui/icons-material/Facebook';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -11,7 +12,7 @@ const Navbar = () => {
     <nav className=' fixed  flex justify-between bg-opacity-5 md:justify-center  text-white bg-green-700 w-[100%]  md:my-4 md:mx-3 p-2  z-10  '>
       <Link to="/">
 
-      <img className='w-[2rem] h-[3rem] md:w-[8rem] md:h-[6rem] mx-2' src={sm} alt="logo" />
+      <img className='w-[3rem] h-[2rem] md:w-[8rem] md:h-[6rem]  bg-white shadow-lg mx-2 my-4' src={sm} alt="logo" />
       </Link>
    
         {
@@ -39,7 +40,7 @@ const Navbar = () => {
         }
                 <div 
                 
-                className={`  flex md:static absolute   md:p-1 py-12 z-50   bg-green-700  ${isOpen === true ? " right-0 ":" -right-[100%] "} transition-all ease-in-out `}>
+                className={`  flex md:static absolute flex-col md:flex-row   md:p-1 py-12 z-50   bg-green-700  ${isOpen === true ? " right-0 ":" -right-[100%] "} transition-all ease-in-out `}>
      
         {isOpen &&  <button className='absolute top-4 right-6 md:hidden' onClick={()=>{
               setIsOpen(false)  
@@ -96,6 +97,16 @@ const Navbar = () => {
                 Form
                 </p></Link></li>
             </ul>
+            <div className="social  mx-4 flex items-center justify-center md:flex-col  gap-4 ">
+        <a target='_blank' rel='noopener noreferrer' href="https://instagram.com/smart_talk_cheeka?r=nametag">
+
+        <InstagramIcon/>
+        </a>
+        <a target='_blank' rel='noopener noreferrer' href="https://www.facebook.com/smarttalk.chika.1?mibextid=LQQJ4d">
+
+        <FacebookIcon/>
+        </a>
+      </div>
             </div>
         </nav>
   )

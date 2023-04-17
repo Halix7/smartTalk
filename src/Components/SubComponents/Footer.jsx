@@ -30,8 +30,8 @@ const Footer = () => {
             <h1 className='text-xl  mb-2' >Contact Information</h1>
             <ul>
                 <li>
-                    First Floor, KS Tower,Kaithal <br /> Rd,Cheeka  <br />
-                    Haryana 136035
+                    First Floor, KS Tower,Kaithal Rd,Cheeka  <br />
+                    Haryana 136034
                 </li>
                 <li>
                     <p>
@@ -39,7 +39,7 @@ const Footer = () => {
                    +91 9050006588
                     </p>
                     <p>
-                    +91 9050006588
+                    +91 9050006988
                     </p>
 
                 </li>

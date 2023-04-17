@@ -116,7 +116,7 @@ const AdvancedForm = () => {
               </button>
               </form>
           </div>
-          <div className="pic md:w-1/2 mt-6 mr-4 mb-5">
+          <div className="pic md:w-1/2 mt-6 mr-4 mb-5 ml-3">
             <img src={PicForm} alt="form" />
           </div>
           </div>
