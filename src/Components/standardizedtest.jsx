@@ -33,7 +33,7 @@ const standardizedtest = () => {
         <div className='flex justify-center items-center min-h-[10vh]   '>
         <motion.div transition={{layout:{duration:1 ,type:"spring"}}} layout onClick={()=>setDefinedIELTS(!isDefinedIELTS)} className='relative  m-4 p-3 bg-white  cursor-pointer  ' style={{borderRadius:"1rem",boxShadow:"0px 10px 30px rgba(0,0,0,0.5)"}}>
         <motion.h2 layout="position" className='text-orange-600 font-bold text-xl  md:text-2xl  spectral '>
-       Defination
+       Definition
         </motion.h2>
         {isDefinedIELTS &&
         <motion.div initial={{opacity:0}} animate={{opacity:1}}  transition={{duration:1}}>
@@ -97,7 +97,7 @@ Login For Classes
         <div className='flex justify-center items-center min-h-[10vh]  cursor-pointer  '>
         <motion.div transition={{layout:{duration:1 ,type:"spring"}}} layout onClick={()=>setDefinedPTE(!isDefinedPTE)} className='relative  m-4 p-3 bg-white' style={{borderRadius:"1rem",boxShadow:"0px 10px 30px rgba(0,0,0,0.5)"}}>
         <motion.h2 layout="position" className='text-orange-600 font-bold text-xl  md:text-2xl  spectral '>
-       Defination
+       Definition
         </motion.h2>
         {isDefinedPTE &&
         <motion.div initial={{opacity:0}} animate={{opacity:1}}  transition={{duration:1}}>
